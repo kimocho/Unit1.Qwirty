@@ -1,0 +1,58 @@
+nav {
+  background-color: blue;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+section>a {
+  color: white;
+}
+
+header>section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: blue;
+}
+
+aside li {
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+li>a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+}
+
+footer {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30vw;
+  padding-right: 30vw;
+}
+
+footer>section {
+  display: flex;
+  flex-direction: column;
+}
+
+main>section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, auto);
+}
